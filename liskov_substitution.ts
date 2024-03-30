@@ -34,7 +34,7 @@ console.log(ostrich.fly());
 //  fly—this could create unexpected behavior in the application. The best way to address
 //  this case is to extend the Ostrich class from the Animal class.
 
-class Ostrich1 extends Animal {
+class Ostrich extends Animal {
 	walk() {
 		console.log('Ostrich Walks');
 	}
